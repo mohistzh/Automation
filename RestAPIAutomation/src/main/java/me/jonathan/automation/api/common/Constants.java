@@ -9,5 +9,5 @@ package me.jonathan.automation.api.common;
  */
 public class Constants {
 
-	public static final String APIAddress="http://localhost:8888/application";
+	public static final String APIAddress="http://localhost:8888/application/rest";
 }
