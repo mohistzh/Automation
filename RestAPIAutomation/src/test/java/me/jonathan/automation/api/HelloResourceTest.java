@@ -8,7 +8,7 @@ import com.jayway.restassured.RestAssured;
 
 public class HelloResourceTest {
 
-	private final String apiAddress = Constants.APIAddress+"/rest/myresource";
+	private final String apiAddress = Constants.APIAddress+"/rest/hello";
 	@Test
 	public void testMyResourceGet() {
 		String response = RestAssured.get(apiAddress).asString();
