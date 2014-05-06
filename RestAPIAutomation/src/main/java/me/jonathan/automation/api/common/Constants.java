@@ -10,4 +10,5 @@ package me.jonathan.automation.api.common;
 public class Constants {
 
 	public static final String APIAddress="http://localhost:8888/application/rest";
+	public static final String test = "写中文测试一下编码";
 }
